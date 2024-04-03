@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css/JavaScript/global-default-style.css">
+    <title>Web Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="quiz-info">
+        <header>
+            <h1 class="title">Timed JavaScript Quiz</h1>
+        </header>
+    
+        <!-- Outlined rules for the user -->
+        <div class="quiz-rules">
+        <h2>Quiz Rules</h2>
+        <ol>
+            <li class="rule">Once you click "Start Quiz" you will have 1 minute to complete the quiz.</li>
+            <li class="rule">For every correct answer you will receive 10 points</li>
+            <li class="rule">For each missed question there will be a -10 second penalty on the timer</li>
+        </ol> 
+    </div>
+    </div>
+        <!-- Created start button -->
+            <button id="start-quiz" class="buttons">Start Quiz</button>
+        <section class="quiz-box">
+            <div id="countdown"></div>
+                    <div id="question-number" class="questions">
+                        <!-- Insert number of questions from JS here-->
+                    </div>
+                    <!-- Insert questions from JS here--> 
+                    <!-- Insert multiple choice options from JS here-->
+                <ul class="answer">
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a-text"></label>
+                    </li>
+    
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b-text"></label> 
+                    </li>
+    
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c-text"></label>
+                    </li>
+    
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d-text"></label>
+                    </li>
+                </ul>  
+                <button id="next-question">Next Question</button>
+            </section> 
+             <!-- score int input -->
+                <div class="results-box" id = "user-score"> 
+                    <br><button id="restart">Try again</button>
+                    <div class="high-score"></div>
+                    <section id="score">
+                        <h1>Quiz Complete!</h1>
+                        <p>
+                        Your score is <span id="realScore"></span> out of
+                        <span id="qTotal"></span>!
+                        </p>
+                        <form>
+                        <input placeholder="Enter Your Initials" id="initialsInput" />
+                        <button id="submit">Submit</button>
+                        </form>
+                    </section>
+                </div>       
+            </footer>
+    
+    
+        <!-- Results Box -->
+    
+        <script src="assets/js/script.js"></script>
+</body>
+</html>
