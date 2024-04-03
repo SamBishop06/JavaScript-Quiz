@@ -6,7 +6,7 @@ For this project, I utilized JavaScript to create a timed multiple-choice quiz a
 ## ![Deployed Application Screenshot](./assets/images/coding-quiz-screenshot.png)
 
 ## Link to Deployed Application: 
-[click here](http://127.0.0.1:5501/index.html) 
+[click here](https://sambishop06.github.io/JavaScript-Quiz/) 
 
 ## Installation: 
 [Visual Studio Code](https://code.visualstudio.com/download)
